@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".ui.fragment.AudioFragment">
+
+
+    <ImageView
+        android:id="@+id/iv_mic_img"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ysq_icon_m_d"
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/iv_startRecording"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ysq_btn_dian_n"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+    <RadioGroup
+        android:id="@+id/rg_voice_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:layout_marginRight="35dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/rb_normal"
+            style="@style/VoiceMessage_ChangeSoundStyle"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/voice_normal"
+            android:checked="true"/>
+
+        <RadioButton
+            android:layout_weight="1"
+
+            android:id="@+id/rb_man"
+            style="@style/VoiceMessage_ChangeSoundStyle"
+            android:background="@drawable/voice_man"/>
+
+        <RadioButton
+            android:layout_weight="1"
+
+            android:id="@+id/rb_wman"
+            style="@style/VoiceMessage_ChangeSoundStyle"
+            android:background="@drawable/voice_wman"/>
+
+        <RadioButton
+            android:layout_weight="1"
+
+            android:id="@+id/rb_boby"
+            style="@style/VoiceMessage_ChangeSoundStyle"
+            android:background="@drawable/voice_boby"/>
+    </RadioGroup>
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/loading_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/loading_indicatorView"
+        android:layout_width="@dimen/custom_avloading_height"
+        android:layout_height="@dimen/custom_avloading_height"
+
+        android:layout_centerInParent="true"
+        android:visibility="visible"
+        app:indicatorName="BallPulseIndicator"
+        app:indicatorColor="@color/colorAccent"
+        />
+    <TextView
+        android:text="加载中..."
+        android:layout_alignBottom="@+id/loading_indicatorView"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:textSize="15sp"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="navigationView_head_bg_color">#339933</color>
+    <!--页面背景的颜色-->
+    <color name="colorPageBg">#f2f4f5</color>
+    <color name="colorTheme">#3F51B5</color>
+    <color name="colorContent">#ff333333</color>
+    <color name="itemLowBackground">#d9d9d9</color>
+    <color name="colorSubtitle">#999</color>
+    <color name="translucent">#0fff</color>
+    <color name="colorTabText">#585858</color>
+</resources>

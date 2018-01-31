@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_1"
+            android:icon="@drawable/icon_home_home_y_303x"
+            android:title="首页"/>
+        <item
+            android:id="@+id/menu_2"
+            android:icon="@drawable/icon"
+            android:title="二维码"/>
+        <item
+            android:id="@+id/menu_3"
+            android:icon="@drawable/icons_decline_50"
+            android:title="多状态布局"/>
+        <item
+            android:id="@+id/menu_4"
+            android:icon="@drawable/microphone"
+            android:title="留言变音"/>
+    </group>
+
+</menu>
