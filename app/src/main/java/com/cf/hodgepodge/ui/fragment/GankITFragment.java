@@ -5,7 +5,8 @@ import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import com.caofu.hodgepodge.R;
+
+import com.cf.hodgepodge.R;
 import com.cf.hodgepodge.adapter.GankITAdapter;
 import com.cf.hodgepodge.bean.GankITBean;
 import com.cf.hodgepodge.component.home.DaggerGankITComponent;

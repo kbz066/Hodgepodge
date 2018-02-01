@@ -7,7 +7,8 @@ import android.webkit.WebView;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.caofu.hodgepodge.R;
+
+import com.cf.hodgepodge.R;
 import com.cf.hodgepodge.bean.ZhiHuDailyDetailsBean;
 import com.cf.hodgepodge.utils.EventBusUtils;
 import com.cf.hodgepodge.utils.HtmlUtils;

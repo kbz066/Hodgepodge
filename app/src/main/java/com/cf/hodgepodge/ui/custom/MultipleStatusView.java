@@ -8,7 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
-import com.caofu.hodgepodge.R;
+
+import com.cf.hodgepodge.R;
 
 import java.util.ArrayList;
 

@@ -5,7 +5,8 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
-import com.caofu.hodgepodge.R;
+
+import com.cf.hodgepodge.R;
 import com.cf.hodgepodge.bean.NewsBean;
 import com.chad.library.adapter.base.BaseMultiItemQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
@@ -22,7 +23,7 @@ public class NewsAdapter extends BaseMultiItemQuickAdapter<NewsBean,BaseViewHold
     private  onItemClickListener mItemClickListener;
     public NewsAdapter(List<NewsBean> data) {
         super(data);
-        addItemType(0,R.layout.item_zhihu_title);
+        addItemType(0, R.layout.item_zhihu_title);
         addItemType(1, R.layout.item_zhihu_daily);
         addItemType(2, R.layout.item_zhihu_theme);
     }

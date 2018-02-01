@@ -11,7 +11,8 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
-import com.caofu.hodgepodge.R;
+
+import com.cf.hodgepodge.R;
 import com.cf.hodgepodge.adapter.NewsAdapter;
 import com.cf.hodgepodge.bean.NewsBean;
 import com.cf.hodgepodge.bean.ZhiHuDailyDetailsBean;

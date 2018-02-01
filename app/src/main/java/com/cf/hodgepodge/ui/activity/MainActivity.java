@@ -15,7 +15,8 @@ import android.widget.FrameLayout;
 import android.widget.Toast;
 
 import com.airbnb.lottie.LottieAnimationView;
-import com.caofu.hodgepodge.R;
+
+import com.cf.hodgepodge.R;
 import com.cf.hodgepodge.bean.ToHomeEvent;
 import com.cf.hodgepodge.component.main.DaggerMianComponent;
 import com.cf.hodgepodge.module.main.MianActivityModule;

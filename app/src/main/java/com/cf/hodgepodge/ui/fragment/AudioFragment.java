@@ -9,7 +9,8 @@ import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.caofu.hodgepodge.R;
+
+import com.cf.hodgepodge.R;
 import com.cf.hodgepodge.bean.ToHomeEvent;
 import com.cf.hodgepodge.component.audio.AudioComponent;
 import com.cf.hodgepodge.component.audio.DaggerAudioComponent;

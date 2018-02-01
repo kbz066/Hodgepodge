@@ -4,7 +4,8 @@ package com.cf.hodgepodge.ui.fragment;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 
-import com.caofu.hodgepodge.R;
+
+import com.cf.hodgepodge.R;
 import com.cf.hodgepodge.adapter.HomeVpAdapter;
 import com.cf.hodgepodge.component.home.DaggerHomeComponent;
 import com.cf.hodgepodge.component.home.HomeComponent;

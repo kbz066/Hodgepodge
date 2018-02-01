@@ -175,7 +175,7 @@ void process(SAMPLETYPE* fBufferIn, const int BUFF_SIZE, bool finishing) {
 
 extern "C"
 JNIEXPORT void JNICALL
-Java_com_caofu_hodgepodge_ndk_NdkManager_init(JNIEnv *env, jobject instance, jint sampleRatete,
+Java_com_cf_hodgepodge_ndk_NdkManager_init(JNIEnv *env, jobject instance, jint sampleRatete,
                                               jint channels, jint pcm_bit) {
 
     api.setBytesPerSample(pcm_bit*channels/8);
@@ -190,7 +190,7 @@ Java_com_caofu_hodgepodge_ndk_NdkManager_init(JNIEnv *env, jobject instance, jin
 }
 extern "C"
 JNIEXPORT jbyteArray JNICALL
-Java_com_caofu_hodgepodge_ndk_NdkManager_putBytes(JNIEnv *env, jobject instance, jbyteArray buffer_,
+Java_com_cf_hodgepodge_ndk_NdkManager_putBytes(JNIEnv *env, jobject instance, jbyteArray buffer_,
                                                   jint buff_len) {
     jbyte *buffer = env->GetByteArrayElements( buffer_, NULL);
 
@@ -222,7 +222,7 @@ Java_com_caofu_hodgepodge_ndk_NdkManager_putBytes(JNIEnv *env, jobject instance,
 
 extern "C"
 JNIEXPORT void JNICALL
-Java_com_caofu_hodgepodge_ndk_NdkManager_setParmeter(JNIEnv *env, jobject instance, jint tempo,
+Java_com_cf_hodgepodge_ndk_NdkManager_setParmeter(JNIEnv *env, jobject instance, jint tempo,
                                                      jint pitch, jint rate) {
 
     api.setTempoChange(tempo);

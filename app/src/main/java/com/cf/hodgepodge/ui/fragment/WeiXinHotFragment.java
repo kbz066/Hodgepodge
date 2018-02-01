@@ -5,7 +5,8 @@ import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import com.caofu.hodgepodge.R;
+
+import com.cf.hodgepodge.R;
 import com.cf.hodgepodge.adapter.WeiXinHotAdapter;
 import com.cf.hodgepodge.bean.WeiXinHotBean;
 import com.cf.hodgepodge.component.home.DaggerWeiXinHotComponent;

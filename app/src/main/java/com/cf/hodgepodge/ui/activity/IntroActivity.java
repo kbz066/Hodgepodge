@@ -15,7 +15,8 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
 import com.airbnb.lottie.LottieAnimationView;
-import com.caofu.hodgepodge.R;
+
+import com.cf.hodgepodge.R;
 import com.orhanobut.logger.Logger;
 
 import java.util.concurrent.TimeUnit;

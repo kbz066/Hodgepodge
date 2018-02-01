@@ -1,7 +1,8 @@
 package com.cf.hodgepodge.ui.fragment;
 
 
-import com.caofu.hodgepodge.R;
+
+import com.cf.hodgepodge.R;
 import com.cf.hodgepodge.presenter.home.MoviePresenter;
 import com.cf.hodgepodge.ui.base.BaseFragment;
 import com.cf.hodgepodge.ui.iview.IMovieView;
